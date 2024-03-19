@@ -9,19 +9,19 @@ while(True):
     # Add input control here!
 
     if int(txtIn) == 1:
-        print("Inserisci la tua frase in Italiano\n")
+        print("Inserisci la tua frase in Italiano:")
         txtIn = input()
         sc.handleSentence(txtIn,"italian")
         continue
 
     if int(txtIn) == 2:
-        print("Inserisci la tua frase in Inglese\n")
+        print("Inserisci la tua frase in Inglese:")
         txtIn = input()
         sc.handleSentence(txtIn,"english")
         continue
 
     if int(txtIn) == 3:
-        print("Inserisci la tua frase in Spagnolo\n")
+        print("Inserisci la tua frase in Spagnolo:")
         txtIn = input()
         sc.handleSentence(txtIn,"spanish")
         continue
